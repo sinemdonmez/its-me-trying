@@ -63,7 +63,7 @@ a, .hero-secondary-text{
     color: #f9faf8;
 }
 
-button {
+button.header-button {
     cursor: pointer;
     padding: 8px 16px;
     border-radius: 8px;
@@ -131,4 +131,32 @@ img.mini-square  {
     color: #1f2937;
     font-weight: bold;
     font-size: 20px;
+}
+
+.call-to-action {
+    background: #3882f6;
+    width: 1200px;
+    border-radius: 10px;
+    margin: 100px auto ;
+    padding: 50px 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #e5e7eb;
+  }
+
+button.action-signup{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.call-header{
+    margin-bottom: -10px;
 }
