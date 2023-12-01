@@ -77,3 +77,40 @@ img {
     max-width:600px;
     max-height:auto;
 }
+
+.information{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.information-header {
+    text-align: center;
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.items {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+  
+  }
+  
+.imageandtext {
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    flex-shrink: 1;
+    text-align: center;
+}
+
+img.mini-square  {
+    max-width:200px;
+    max-height:auto;
+}
+
+.text {
+    font-size: 18px;
+    color: gray;
+}
