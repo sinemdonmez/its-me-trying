@@ -114,3 +114,21 @@ img.mini-square  {
     font-size: 18px;
     color: gray;
 }
+
+.quote{
+    background-color: #e5e7eb;
+    padding:  100px 500px;
+}
+
+.actual-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.name-of-quote {
+    text-align: end;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 20px;
+}
