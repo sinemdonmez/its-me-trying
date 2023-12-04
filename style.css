@@ -11,6 +11,7 @@ body{
     background-color: #1f2937;
     padding: 0px 250px;
     padding-bottom: 50px;
+    flex-shrink: 1;
 }
 
 ul {
@@ -41,6 +42,7 @@ a, .hero-secondary-text{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 1;
 }
 
 .header-content{
@@ -54,7 +56,7 @@ a, .hero-secondary-text{
 }
 
 .imagecell{
-    flex-shrink: 0.75;
+    flex-shrink: 1;
 }
 
 .hero-main-text {
@@ -159,4 +161,11 @@ button.action-signup{
 
 .call-header{
     margin-bottom: -10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 40px 0px;
+    color: wheat;
 }
