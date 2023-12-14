@@ -57,6 +57,8 @@ a, .hero-secondary-text{
 
 .imagecell{
     flex-shrink: 1;
+    max-width: 600px;
+    
 }
 
 .hero-main-text {
@@ -76,8 +78,8 @@ button.header-button {
   }
 
 img {
-    max-width:600px;
-    max-height:auto;
+    width: 100%;
+	height: auto;
 }
 
 .information{
